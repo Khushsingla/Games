@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow: hidden;
+}
+.gamecontainer{
+   background-image:url("https://static.vecteezy.com/system/resources/previews/000/432/942/non_2x/a-flat-nature-background-vector.jpg");
+   background-repeat: no-repeat;
+   background-size:100vw 100vh;
+   height:100vh;
+   width:100%;
+  
+}
+.new:hover{
+    background-color: white;
+    }
+    
+    .f:hover{
+        background-color: white;
+        }
+
+
+
+
+
+
+.new{
+    position:absolute;
+    margin-left:20px;
+    margin-top:10px;
+    padding:10px;
+    top:10px;
+    font-size: 1.25rem;
+    color:black;
+    border-radius: 1rem;
+    border: 3px solid black;
+    background-color: #7acab991;
+}
+.f{
+    position: absolute;
+    margin-top:10px;
+    padding: 10px;
+    top:10px;
+    right:2px;
+    font-size: 1.25rem;
+    color:black;
+    border-radius: 1rem;
+    border: 3px solid black;
+    margin-left:1200px;
+    background-color: #7acab991;
+}
+.game{
+    position:relative;
+    top:20px;
+    font-size: 53px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:#0f4903;
+    text-decoration: underline;
+
+}
+#score{
+    margin-top:30px;
+    position: fixed;
+    text-align: center;
+    left:640px;
+
+    font-family: sans-serif;
+    font-size: 30px;
+    width:300px;
+    height:20px;
+    font-weight: bolder;
+    text-decoration:underline;
+    color:#0f4903;
+}
+.dino{
+    background-image:url('https://th.bing.com/th/id/R.f4165a8063c96d80d7571cc789870794?rik=MHBiiJAwYMkYEQ&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-super-mario-jumpingmariofictional-charactervideo-gamefranchisenintendodesigner-1701528623851ez1o4.png&ehk=eBH35LSS3PZWPDm9OdsnaeJscHnAnl4Bj7nmwdN%2fMFQ%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    height:150px;
+    width:150px;
+  position:absolute;
+  left:122px;
+  bottom:0;
+  
+}
+.obstacle{
+    background-image:url('https://th.bing.com/th/id/R.54b6abd7800bdcf5c0713fc32842cd0e?rik=DokQu8lmJ1dIXQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-59oG5kVlUSE%2fTl1XksCJL1I%2fAAAAAAAAAaQ%2fyJ3a3xV530Q%2fs1600%2ftiger_png_by_dbszabo1-d3dnjug.png&ehk=xhnh0EV7OwFgZUnx4hOtfV9E25WiWMnPxxXWHKympF4%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: 210px 170px;
+    height:170px;
+    width:210px;
+    position:absolute;
+    right:-170px;
+    bottom:0px;
+}
+.ff{
+    font-weight: bold;
+    color:black;
+}
+
+.gameover{
+    position:relative;
+    top:180px;
+    font-size: 53px;
+    text-align: center;
+    visibility: hidden;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+.animatedino{
+    animation: dino 0.9s linear;
+}
+@keyframes dino{
+    0%{
+        bottom:0;
+    }
+    50%{
+  bottom:280px;
+    }
+    100%{
+        bottom:0;
+    }
+}
+.obstaclesani{
+    animation: obstaclesani 5s linear infinite;
+}
+@keyframes obstaclesani{
+    0%{
+        left:100vw;
+    }
+    100%{
+     left:-10vw;
+    }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUDOKU</title>
+    <link rel="stylesheet" href="sudoku.css">
+    
+</head>
+<body>
+    <div class="gamecontainer">
+        
+        <button class="a e"> <p class="ff">EASY </p> </button>
+        <button class="a n"> <p class="ff">NORMAL </p> </button>
+        <button class="a m"> <p class="ff">MEDIUM</p> </button>
+        <button class="a h"> <p class="ff">HARD </p> </button>
+        <p class="game">SUDOKU</p>
+        <button class="new"><p class="ff"> NEW GAME </p>  </button>
+       </div>
+ 
+       <div>
+        <p id="errors" class="game1 ">ERRORS: </p>
+       </div>
+
+        
+
+         <div class="t">
+            <div class="solve">
+                <button class="a s"> <p class="ff s1">AUTO SOLVE </p> </button>
+            </div>
+            <div id="board">
+            </div>
+            <div><p class="abc" style=" top : 220px; font-size: 35px;margin-left:50px; margin-top: 200px; font-weight: bold;"> CONGRATULATIONS </p></div> 
+         </div>        
+         <br>
+         <div id="digits">
+
+         </div>
+       
+
+<script src="sudoku.js"></script>
+</body>
+</html>

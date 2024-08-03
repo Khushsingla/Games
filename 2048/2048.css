@@ -1,0 +1,143 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    overflow: hidden;
+    background:url('https://media.istockphoto.com/id/1046544350/photo/abstract-blurred-simple-beige-and-tan-color-background-with-white-light-effect-for-design-as.webp?b=1&s=170667a&w=0&k=20&c=j2JjTzbRBV5AOVzQHKkAzQ4N_nxz7vCKUIjCEA_Ofu4=') ;
+    background-size: 1550px 750px;
+}
+#board{
+    width:400px;
+    height:400px;
+    background-color: #f5d6b5;
+    border: 6px solid #9d8c7c;
+    margin-top: 0px;
+    margin-left: 550px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.high{
+    display: flex;
+width:100%;
+height:60px;
+align-items: center;
+margin-top:30px;
+
+}
+#score{
+    background-color:#f5d6b5;
+    padding:3px;
+    border:4px solid black;
+    margin-left: 400px;
+}
+#score1{
+    padding:3px;
+    margin-left: 300px;
+    border:4px solid black;
+    background-color:#f5d6b5;
+}
+.gamecontainer{
+display: flex;
+width:100%;
+height:80px;
+align-items: center;
+
+}
+.abc{
+    visibility:hidden;
+}
+.tile{
+width:90px;
+height:90px;
+border:5px solid #9d8c7c;
+font-size: 40px;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.new{
+    left:0px;
+    margin-left:20px;
+    margin-top:30px;
+    font-size: 1.25rem;
+    color:black;
+    border-radius: 1rem;
+    border: 4px solid black;
+    background-color: #f5d6b5;
+}
+.ff{
+    font-weight: bold;
+}
+.f{
+    position: absolute;
+    margin-top:30px;
+    right:2px;
+    font-size: 1.25rem;
+    color:black;
+    border-radius: 1rem;
+    border: 4px solid black;
+    margin-left:1200px;
+   background-color: #f5d6b5;
+}
+.game{
+    margin-left:560px;
+    top:30px;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:black;
+
+}
+
+
+.x2{
+    background-color: #eee4da;
+    color:#727371;
+}
+.x4{
+background-color: #eee4da;
+color:#727371;
+}
+.x8{
+background-color: #fdae62;
+color:white;
+}
+.x16{
+    background-color: #ff260791;
+    color:white;
+}
+.x32{
+background-color: #ff643f;
+;
+color:white;
+}
+.x64{
+background-color: #f89c44;
+color:white;
+}
+.x128{
+    background-color: #ff4737;
+    color:white;
+}
+.x256{
+background-color: #ff501b;
+color:white;
+}
+.x512{
+background-color: #f4b171;
+color:white;
+}
+.x1024{
+    background-color: #ffb500c7;
+    color:white;
+}
+.x2048{
+background-color: #ece0ca;
+color:#727371;
+}
+.x4096{
+background-color: #f4b171;
+color:white;
+}

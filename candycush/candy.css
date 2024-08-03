@@ -1,0 +1,25 @@
+body{
+    background:url('https://wallpapercave.com/wp/wp2347583.jpg');
+    background-size: 1535px 750px;
+    color:white;
+    overflow: hidden;
+}
+h1{
+    margin-left: 650px;
+}
+#board{
+    width:450px;
+    height:450px;
+    background-color: lightblue;
+    border:5px solid slategray;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:490px;
+    margin-top: 40px;
+}
+
+#board img{
+width:50px;
+height:50px;
+background: white;
+}
